@@ -268,9 +268,9 @@ li {
     border-top-right-radius: 0;
 }
 
-.btn-line {
-    border: 1px solid #c6d6ed;
-    margin: 0.8rem;
+.vertical-inline-btn {
+    border-left: 1px solid #c6d6ed;
+    margin-right: 0.8rem;
     opacity: 0.5;
 }
 
