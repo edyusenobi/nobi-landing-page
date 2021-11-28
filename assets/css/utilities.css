@@ -1,7 +1,18 @@
-*{
+@font-face {
+    font-family: CircularStdBold;
+    src: url("../fonts/CircularStd-Bold.otf");
+}
+
+@font-face {
+    font-family: CircularStdMedium;
+    src: url("../fonts/CircularStd-Medium.ttf");
+}
+
+body {
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: CircularStdBold !important;
+    /* font-weight: 100 !important; */
 }
 
 /* Container */
@@ -11,7 +22,7 @@
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
+@media (min-width: 576px) {
     .container-fluid {
         padding-right: 40px;
         padding-left: 40px;
@@ -19,7 +30,7 @@
  }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
     .container-fluid {
     padding-right: 70px;
     padding-left: 70px;
@@ -50,7 +61,7 @@
 }
 
 .bg-dark-gradient {background: rgb(12,29,62);
-    background: linear-gradient(355deg, rgba(12,29,62,1) 0%, rgba(0,0,0,1) 35%);
+    background: linear-gradient(360deg, rgba(12,29,62,1) 0%, rgba(0,0,0,1) 35%);
 }
 
 .bg-black {
@@ -323,6 +334,14 @@
 .text-xxs{
     font-size: 0.625rem;
     line-height: 1rem;
+}
+
+.margin-right-2 {
+    margin-right: 2rem;
+}
+
+.border-radius-10 {
+    border-radius: 10px;
 }
 /*  */
 

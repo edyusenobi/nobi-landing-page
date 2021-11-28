@@ -297,3 +297,40 @@ li {
     display:inline;
     padding: 10px;
 }
+
+.n-blue {
+    border: 1px solid #055DF3;
+    border-radius: 10px;
+    overflow: hidden;
+    font-weight: 400;
+}
+
+.nav-border {
+    border-right: 1px solid #055DF3;
+    border-left: 1px solid #055DF3;
+}
+
+.nav-item-custom {
+    padding: 0 !important;
+    min-width: 200px;
+    text-align: center;
+}
+
+.nav-item-custom .nav-link:hover{
+    background-color: #055DF3;
+    color: #FFFFFF;
+    border: 1px solid #055DF3;
+    overflow: hidden;
+}
+
+.nav-item-custom .nav-link.active{
+    background-color: #055DF3;
+    color: #FFFFFF;
+    border: 1px solid #055DF3;
+}
+
+.btn-line {
+    border: 1px solid #c6d6ed;
+    margin: 0.8rem;
+    opacity: 0.5;
+}

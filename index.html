@@ -14,16 +14,9 @@
     <link rel="stylesheet" href="./assets/css/homepage.css">
     <link rel="stylesheet" href="./assets/css/utilities.css">
 
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-
     <!-- AOS Animation -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
 
     <title>NOBI</title>
 </head>
@@ -85,14 +78,14 @@
     <section class="reached pt-50 pb-50 bg-black">
       <div class="container-fluid">
           <div class="d-flex flex-lg-row flex-column align-items-center justify-content-center gap-lg-0 gap-4 mb-5">
-            <ul class="nav nav-tabs">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Strategy</a>
+            <ul class="nav nav-tabs n-blue">
+              <li class="nav-item-custom">
+                <a class="nav-link active" href="#">Strategy</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item-custom nav-border">
                 <a class="nav-link" href="#">Staking</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item-custom">
                 <a class="nav-link" href="#">Saving</a>
               </li>
             </ul>
@@ -170,8 +163,10 @@
           </div>
 
           <div class="text-center">
-            <button class="btn btn-primary text-sm">
-              Explore More
+            <button class="btn btn-primary text-sm border-radius-10">
+              <span class="margin-right-2">Explore More</span>
+              <span class="btn-line"></span>
+              <img src="./assets/icon/arrow-left.svg" width="15" alt="">
             </button>
           </div>
 
@@ -188,10 +183,11 @@
                 <div class="col-6">
                   <h2 class="mb-5">Create Your Own Strategy And Become a Strategy Maker</h2>
                   <div>
-                    <button class="btn btn-primary text-sm">
-                      Learn More
+                    <button class="btn btn-primary text-sm border-radius-10">
+                      <span class="margin-right-2">Learn More</span>
+                      <span class="btn-line"></span>
+                      <img src="./assets/icon/arrow-left.svg" width="15" alt="">
                     </button>
-                  </div>
                 </div>
             </div>
         </div>
@@ -292,13 +288,19 @@
                           <p class="mb-30">All trademarket and copyrights belong <br> to their repective owners.</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 mt-lg-0 mt-20 d-flex align-items-center justify-content-evenly">
-                        <div>English</div>
-                        <div>Terms</div>
-                        <div>Contact Us</div>
+                    <div class="col-lg-4 mt-lg-0 mt-20 d-flex align-items-center justify-content-evenly col-12 d-lg-block d-none">
+                      <div>
+                        <h5 class="text-center">&nbsp;</h5>
+                        <ul>
+                          <li>English</li>
+                          <li>Terms</li>
+                          <li>Contact Us</li>
+                        </ul>
+                      </div>
                     </div>
                     <div class="col-lg-4 mt-lg-0 mt-20 d-flex align-items-center justify-content-between">
-                        <!-- <h5>Joun Our Commnunity</h5> -->
+                      <div>
+                        <h5 class="text-center mb-4">Join Our Commnunity</h5>
                         <ul>
                           <li>
                             <img src="./assets/icon/telegram.svg" alt="">
@@ -319,6 +321,7 @@
                             <img src="./assets/icon/snap.svg" alt="">
                           </li>
                         </ul>
+                      </div>
                     </div>
                 </div>
             </div>
