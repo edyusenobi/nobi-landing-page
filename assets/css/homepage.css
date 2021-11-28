@@ -127,7 +127,7 @@ footer ul li a:hover{
     }
 
     .tab-width {
-        width: 15vh;
+        width: 13vh;
     }
 
     .logo-app-store {
@@ -135,7 +135,7 @@ footer ul li a:hover{
     }
 
     .footer-logo-apo-store {
-        /* width: 40%; */
+        width: 40%;
         margin: 0 auto;
     }
  }
