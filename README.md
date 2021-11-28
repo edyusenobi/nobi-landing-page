@@ -7,4 +7,4 @@
 * double click file index.html
 
 ### Demo
-https://gallant-blackwell-a34c61.netlify.app/
+https://nobi-landing-page.netlify.app/
