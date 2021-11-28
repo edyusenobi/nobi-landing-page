@@ -5,7 +5,7 @@
 }
 
 .navbar-light .navbar-nav .nav-link:hover{
-    color: #0C145A;
+    color: white;
 }
 
 .navbar-light .navbar-nav .nav-link{
@@ -251,21 +251,29 @@ li {
     text-align: center;
 }
 
-.nav-item-custom .nav-link:hover{
+.nav-item-custom .nav-link:hover {
     background-color: #055DF3;
     color: #FFFFFF;
     border: 1px solid #055DF3;
     overflow: hidden;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
 }
 
-.nav-item-custom .nav-link.active{
+.nav-item-custom .nav-link.active {
     background-color: #055DF3;
     color: #FFFFFF;
     border: 1px solid #055DF3;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
 }
 
 .btn-line {
     border: 1px solid #c6d6ed;
     margin: 0.8rem;
     opacity: 0.5;
+}
+
+.nav-tabs .nav-link {
+    border: none;
 }
