@@ -34,7 +34,7 @@ body {
 } }
 
 /* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
+@media (min-width: 1200px) {
     .container-fluid {
         padding-right: 100px;
         padding-left: 100px;
@@ -181,9 +181,6 @@ body {
     padding-left: 0.5rem;
 }
 
-/*  */
-
-
 /* Margin */
 .m-32{
     margin: 2rem;
@@ -197,7 +194,7 @@ body {
 }
 
 .mt-20{
-    margin-top: 1.25rem; 
+    margin-top: 1.25rem;
 }
 
 .mt-25{
@@ -256,9 +253,6 @@ body {
     margin-bottom: 0.875rem;
 }
 
-/*  */
-
-
 /* Color Palette */
 .color-palette-1{
     color: #FFFFFF;
@@ -275,9 +269,6 @@ body {
 .color-palette-4{
     color: #FFFFFF;
 }
-
-/*  */
-
 
 /* FONT */
 .fw-semibold{
@@ -352,11 +343,11 @@ body {
 
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
+@media (min-width: 576px) {
 
  }
 /* Medium devices (landscape phones, 768px and up) */
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
    /* Padding */
     .pe-md-25{
         padding-right: 1.563rem;
@@ -423,7 +414,7 @@ body {
  }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
     /* Padding */
     .pt-lg-100{
         padding-top: 6.25rem;
@@ -452,7 +443,7 @@ body {
     .pt-lg-60{
         padding-top: 3.75rem;
     }
-   
+
     .pt-lg-145{
         padding-top: 9.063rem;
     }
@@ -483,7 +474,7 @@ body {
     .me-lg-35{
         margin-right: 2.2rem;
     }
-    
+
     .ms-lg-35{
         margin-left: 2.2rem;
     }
@@ -491,7 +482,7 @@ body {
     .me-lg-20{
         margin-right: 1.25rem;
     }
-    
+
     .ms-lg-40{
         margin-left: 2.5rem;
     }
@@ -499,9 +490,8 @@ body {
     /*  */
 }
 
-
 /* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
+@media (min-width: 1200px) {
     .container-fluid {
         padding-right: 100px;
         padding-left: 100px;
@@ -513,5 +503,3 @@ body {
         max-width: 1420px;
     }
 }
-
-    /*  */
