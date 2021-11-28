@@ -2,7 +2,7 @@
 
 ### Usage ###
 
-* clone repo
+* clone repo https://github.com/nuridincs/nobi-landing-page.git
 * go to directory
 * double click file index.html
 
