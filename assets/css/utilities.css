@@ -343,80 +343,86 @@ body {
 .border-radius-10 {
     border-radius: 10px;
 }
+
+.text-grey {
+    color: #cecece;
+}
+
+.lh-2l{
+    line-height: 30px;;
+}
 /*  */
 
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
-   
+
  }
 /* Medium devices (landscape phones, 768px and up) */
 @media (min-width: 768px) { 
    /* Padding */
-.pe-md-25{
-    padding-right: 1.563rem;
-}
+    .pe-md-25{
+        padding-right: 1.563rem;
+    }
 
-.ps-md-25{
-    padding-left: 1.563rem;
-}
+    .ps-md-25{
+        padding-left: 1.563rem;
+    }
 
-.pt-md-50{
-    padding-top: 3.125rem !important;
-}
+    .pt-md-50{
+        padding-top: 3.125rem !important;
+    }
 
-.pb-md-50{
-    padding-bottom: 3.125rem;
-}
+    .pb-md-50{
+        padding-bottom: 3.125rem;
+    }
 
-.pb-md-15{
-    padding-bottom: 0.938rem;
-}
+    .pb-md-15{
+        padding-bottom: 0.938rem;
+    }
 
-.pt-md-15{
-    padding-top: 0.938rem;
-}
+    .pt-md-15{
+        padding-top: 0.938rem;
+    }
 
-.ps-md-15{
-    padding-left: 0.938rem;
-}
+    .ps-md-15{
+        padding-left: 0.938rem;
+    }
 
-.pe-md-15{
-    padding-right: 0.938rem;
-}
+    .pe-md-15{
+        padding-right: 0.938rem;
+    }
 
-.pb-md-145{
-    padding-bottom: 9.063rem;
-}
+    .pb-md-145{
+        padding-bottom: 9.063rem;
+    }
 
-.pt-md-100{
-    padding-top: 6.25rem;
-}
+    .pt-md-100{
+        padding-top: 6.25rem;
+    }
 
-.pt-md-179{
-    padding-top: 11.188rem;
-}
+    .pt-md-179{
+        padding-top: 11.188rem;
+    }
 
-.pb-md-179{
-    padding-bottom: 11.188rem;
-}
+    .pb-md-179{
+        padding-bottom: 11.188rem;
+    }
 
-.pt-md-145{
-    padding-top: 9.063rem;
-}
+    .pt-md-145{
+        padding-top: 9.063rem;
+    }
 
-.pb-md-212{
-    padding-bottom: 13.25rem;
-}
+    .pb-md-212{
+        padding-bottom: 13.25rem;
+    }
+    /*  */
 
-/*  */
-
-/* Margin */
-.mb-md-10{
-    margin-bottom: 0.625rem !important;
-}
-/*  */
-
+    /* Margin */
+    .mb-md-10{
+        margin-bottom: 0.625rem !important;
+    }
+    /*  */
  }
 
 /* Large devices (desktops, 992px and up) */
@@ -437,7 +443,7 @@ body {
     .pb-lg-227{
         padding-bottom: 14.188rem;
     }
-    
+
     .pe-lg-60{
         padding-right: 3.75rem;
     }
